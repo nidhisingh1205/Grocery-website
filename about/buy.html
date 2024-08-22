@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana Store Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+   
+    <div class="main-content">
+              <br>
+        <div class="cart">
+            <h2>Cart</h2>
+            <div class="breadcrumb">Home / Page</div>
+            <div class="cart-item">
+                <img src="peppersauce.jpg" alt="24 Mantra Basmathi White">
+                <div class="item-details">
+                    <span>Pepper Sauce</span>
+                    <br>
+                </div>
+                <div class="quantity-control">
+                    <button class="decrease">-</button>
+                    <input type="number" value="4" min="1">
+                    <button class="increase">+</button>
+                </div>
+                <span class="item-total">₹900.57</span>
+                <button class="delete">🗑️</button>
+            </div>
+            <a href="#" class="continue-shopping">Continue Shopping</a>
+            <div class="coupon">
+                <input type="text" placeholder="Enter coupon code here...">
+                <button class="apply">Apply</button>
+            </div>
+            <div class="cart-totals">
+                <div class="subtotal">Subtotal: ₹900.57 (ex. VAT)</div>
+                <div class="tax">IGST: ₹21.43</div>
+                <div class="total">Total: ₹922.00</div>
+            </div>
+           <a href="../payment.html"><button class="checkout">Proceed To Checkout</button></a> 
+        </div>
+    </div>
+</body>
+
+    <script src="buy.js"></script> 
+</body>
+</html>

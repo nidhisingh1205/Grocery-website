@@ -1,0 +1,36 @@
+.main{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+
+}
+body{
+    background-color:#05ab1e84;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.089);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 280px;
+    border-radius: 10px;
+}
+i{
+    margin-top: 120px;
+    font-size: 120px;
+    color: rgb(23, 6, 249);
+}
+.h2{
+    margin-top: 20px;
+    color: rgb(235, 15, 15);
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}

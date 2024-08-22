@@ -1,0 +1,49 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8f3e7a3;
+    height: 80px;
+    position: fixed;
+}
+.navText {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+#navLogoImg {
+    height: 60px;
+}
+#log_in {
+    color: white;
+    padding: 5px 15px;
+    background-color: rgb(41, 141, 248);
+    border-radius: 20px;
+}
+.navTS:hover {
+    font-size: 17px;
+    border-bottom: 1px solid rgb(0, 8, 255);
+    text-shadow: 2px 2px 15px rgb(0, 8, 255);
+}
+#log_in:hover {
+    font-size: 17px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    box-shadow: 2px 3px 15px black;
+    background-color: rgba(12, 4, 250, 0.621);
+}
